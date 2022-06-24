@@ -1,0 +1,16 @@
+<div class="col-md-6 offset-md-3">
+<h3>create</h3>
+<form (ngSubmit) = "onSubmit()">
+    <div class="form-group">
+        <label>nom</label>
+        <input type="text" class="form-control" id="nom"
+        [(ngModel)] = "test.nom" name="nom">
+    </div>
+    <div class="form-group">
+        <label>prenom</label>
+        <input type="text" class="form-control" id="prenom"
+        [(ngModel)] = "test.prenom" name="prenom">
+    </div>
+    <button class="btn btn-success" type="submit">ajouter</button>
+</form>
+</div>
